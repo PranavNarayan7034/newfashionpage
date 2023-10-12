@@ -46,6 +46,15 @@
 }
 
 .prod-img{
+    margin-top: 10px;
     height: 300px;
     width: 100%;
+    border-radius: 20px;
+}
+.prod{
+    height: 500px;
+}
+.prod:hover{
+    background-color: rgb(58, 168, 168);
+    border-radius: 20px;
 }
