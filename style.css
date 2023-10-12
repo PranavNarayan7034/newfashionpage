@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Tilt+Neon&family=Young+Serif&display=swap');
+
 .logoicon{
     height: 50px;
     width: 50px;
@@ -10,4 +12,35 @@
 .colimg{
     width: 100%;
     height: 500px;
+}
+.introh1{
+    text-align: center;
+    margin: 60px 0px 30px 0px;
+    font-family: Young Serif;
+    font-weight: 600;
+    color: rgba(247, 69, 69, 0.856);
+}
+.introh4{
+    text-align: center;
+    font-family: Tilt Neon;
+    font-size: 35px;
+}
+.introh4:hover{
+    color: blue;
+}
+.introbtn{
+    width: 330px;
+    height: 80px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Autour One;
+    border: none;
+    background-color: greenyellow;
+    margin-top: 20px;
+    border-radius: 20px 50px 20px 50px;
+}
+.introbtn:hover{
+    border: 5px solid greenyellow;
+    background:none; 
+    transition: 0.5s;
 }
