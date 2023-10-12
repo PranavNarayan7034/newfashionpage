@@ -44,3 +44,8 @@
     background:none; 
     transition: 0.5s;
 }
+
+.prod-img{
+    height: 300px;
+    width: 100%;
+}
