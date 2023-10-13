@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Tilt+Neon&family=Young+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Autour+One&family=Tilt+Neon&family=Young+Serif&display=swap');
 .logoicon{
     height: 50px;
     width: 50px;
@@ -47,14 +46,42 @@
 
 .prod-img{
     margin-top: 10px;
-    height: 300px;
+    height: 250px;
     width: 100%;
     border-radius: 20px;
 }
 .prod{
-    height: 500px;
+    height: 470px;
 }
 .prod:hover{
-    background-color: rgb(58, 168, 168);
+    background-color: rgb(172, 194, 194);
     border-radius: 20px;
+}
+.prod-h3{
+    margin-top: 25px;
+    font-family: Anton;
+}
+.prod-p{
+    font-family: Arvo;
+    font-weight: bold;
+}
+.prod-h5 span{
+    margin-left: 10px;
+}
+.prod-div button{
+    margin: 5px 5px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(to right, yellow,red);
+}
+.prod-div button:hover{
+    background:linear-gradient(to left,yellow,red);
+}
+.prod-img:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
 }
