@@ -3,107 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fashion page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><ion-icon name="rose" class="logoicon"></ion-icon></a>
+          <a class="navbar-brand" href="#"><ion-icon name="rose" class="myicon"></ion-icon></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse mydiv" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 myul">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link nav1 active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Account</a>
+                <a class="nav-link nav1" href="#">Account</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                   Products
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Men</a></li>
                   <li><a class="dropdown-item" href="#">Women</a></li>
+                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Kids</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link nav1" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cart <ion-icon name="cart"></ion-icon></a>
+                <a class="nav-link nav1" href="#">Cart <ion-icon name="cart" class="carticon"></ion-icon></a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search For Products" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
 
+      
 
-       <div class="row">
-            <div class="col-md-6">
-                <img src="images/col1img.avif" alt="" class="colimg">
-            </div>
-            <div class="col-md-6">
-                <h1 class="introh1">Grab Your Shoping Experience</h1> 
-                <h4 class="introh4">Get 30% offer for all products</h4>
-                <h4 class="introh4">Free shipping all over india</h4>
-                <h4 class="introh4">Vouchers for all transactions</h4>
-                <div class="text-center"><button class="introbtn">Explore more</button></div>  
-            </div>
-       </div>
-
-       <h1 class="introh1">Featured Products</h1>
-       <br>
-       
-       <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-3 prod">
-                <img src="images/shirt1.jpg" alt="" class="prod-img">
-                <h3 class="text-center prod-h3">Classic Printed Shirt</h3>
-                <p class="text-center prod-p">Vessels Shirt For Men</p>
-                <h5 class="text-center prod-h5">₹499 <span class="text-decoration-line-through text-warning">₹699</span></h5>
-                <div class="text-center prod-div"><button>Buy Now</button><button>Add to Cart</button></div>
+            <div class="col-md-6">
+                <img src="images/bg1.jpg" class="colimg" alt="">
+            </div>
+            <div class="col-md-6 mycol2">
+                <h1 class="myh1">Grab Your Shoping Experience</h1>
+                <h3 class="myh3 text-center">Get 30% Discount for All Products</h3>
+                <h3 class="myh3 text-center">Free Shipping All over India</h3>
+                <h3 class="myh3 text-center">Vouchers For All Transactions</h3>
+                <div class="text-center"><button type="button" class="mybtn">Explore More</button></div>
+            </div>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-2">
+                  <img src="images/men.jpg" alt="" class="cat-img">
+                  <h4 class="text-center cat-h4">Men</h4>
+              </div>
+              <div class="col-2">
+                <img src="images/women.avif" alt="" class="cat-img">
+                <h4 class="text-center cat-h4">Women</h4>
+              </div>
+              <div class="col-2">
+                <img src="images/kids.avif" alt="" class="cat-img">
+                <h4 class="text-center cat-h4">Kids</h4>
+              </div>
+              <div class="col-2">
+                <img src="images/watches.jpg" alt="" class="cat-img">
+                <h4 class="text-center cat-h4">Essential</h4>
+              </div>
+              <div class="col-2">
+                <img src="images/shoes.avif" alt="" class="cat-img">
+                <h4 class="text-center cat-h4">Shoes</h4>
+              </div>
+              <div class="col-2">
+                <img src="images/perfumes.avif" alt="" class="cat-img">
+                <h4 class="text-center cat-h4">Perfumes</h4>
+              </div>
           </div>
-          <div class="col-3 prod">
-                <img src="images/shirt2.jpg" alt="" class="prod-img">
-                <h3 class="text-center prod-h3">Black Tshirt</h3>
-                <p class="text-center prod-p">Fleece Tshirt For Men</p>
-                <h5 class="text-center prod-h5">₹399 <span class="text-decoration-line-through text-warning">₹599</span></h5>
-                <div class="text-center prod-div"><button>Buy Now</button><button>Add to Cart</button></div>
+      </div>
+
+      <br><br><br>
+
+      <h1 class="text-center myh1">Featured Products</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 prod-col">
+            <a href="#" class="text-decoration-none">
+              <img src="images/tshirt1.avif" alt="" class="img my-3">
+              <h2 class="newh2 text-center">Black Tshirt</h2>
+              <p>Ultranet Black Tshirt For Men</p>
+              <h5 class="text-center">₹499 <span class="text-decoration-line-through text-warning ms-3">₹899</span></h5>
+              <div class="text-center"><button class="buybtn">Buy Now</button></div>
+            </a>
           </div>
-          <div class="col-3 prod">
-                  <img src="images/girl1.avif" alt="" class="prod-img">
-                  <h3 class="text-center prod-h3">Crop Top For Women</h3>
-                  <p class="text-center prod-p">H&M Tops</p>
-                  <h5 class="text-center prod-h5">₹1599 <span class="text-decoration-line-through text-warning">₹1999</span></h5>
-                  <div class="text-center prod-div"><button>Buy Now</button><button>Add to Cart</button></div>
+          <div class="col-sm-3 prod-col">
+            <a href="#" class="text-decoration-none">
+              <img src="images/tshirt2.jpg" alt="" class="img my-3">
+              <h2 class="newh2 text-center">Top Mockup</h2>
+              <p>Vexels Trendy Mockp for men</p>
+              <h5 class="text-center">₹399 <span class="text-decoration-line-through text-warning ms-3">₹799</span></h5>
+              <div class="text-center"><button class="buybtn">Buy Now</button></div>
+            </a>
           </div>
-          <div class="col-3 prod">
-                  <img src="images/girl2.jpg" alt="" class="prod-img">
-                  <h3 class="text-center prod-h3">Jumpsuit For Women</h3>
-                  <p class="text-center prod-p">Zudio Jumpsuits</p>
-                  <h5 class="text-center prod-h5">₹699 <span class="text-decoration-line-through text-warning">₹799</span></h5>
-                  <div class="text-center prod-div"><button>Buy Now</button><button>Add to Cart</button></div>
+          <div class="col-sm-3 prod-col">
+            <a href="#" class="text-decoration-none">
+              <img src="images/track pant1.avif" alt="" class="img my-3">
+              <h2 class="newh2 text-center">Sports Pants</h2>
+              <p class="text-center">Fleece Sports Pant for Men</p>
+              <h5 class="text-center">₹799 <span class="text-decoration-line-through text-warning ms-3">₹999</span></h5>
+              <div class="text-center"><button class="buybtn">Buy Now</button></div>
+            </a>
+          </div>
+          <div class="col-sm-3 prod-col">
+            <a href="#" class="text-decoration-none">
+              <img src="images/tshirt3.avif" alt="" class="img my-3">
+              <h2 class="newh2 text-center">Graphic Shirt</h2>
+              <p class="text-center">DaMENSCH Shirt For Men</p>
+              <h5 class="text-center">₹699 <span class="text-decoration-line-through text-warning ms-3">₹999</span></h5>
+              <div class="text-center"><button class="buybtn">Buy Now</button></div>
+            </a>
           </div>
         </div>
-       </div>
+      </div>
+
+      <div class="offercol">
+        <img src="images/offerimg.jpg" alt="" class="offerimg">
+      </div>
+
+      <div class="row">
+        <div class="col mx-4">
+          <a href=""><img src="images/fn.jpg" alt="" class="img1"></a>
+        </div>
+        <div class="col-4">
+          <a href=""><img src="images/fn1.jpg" alt="" class="img1"></a>
+        </div>
+        <div class="col mx-4">
+          <a href=""><img src="images/fn2.jpg" alt="" class="img1"></a>
+        </div>
+      </div>
 
 
-       <br><br><br><br><br><br><br><br><br><br>
 
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
 </body>
 </html>
